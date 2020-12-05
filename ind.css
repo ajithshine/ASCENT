@@ -249,6 +249,7 @@ body .sec4 .free {
   padding-left: 980px;
   font-size: 20px;
   color: #ffcb9b;
+  margin-bottom: 20px;
 }
 
 body .sec4 .con {
@@ -261,5 +262,9 @@ body .sec4 .con ul {
 
 body .sec4 .con ul li {
   text-decoration: none;
+}
+
+body .sec4 .con ul li p {
+  color: white;
 }
 /*# sourceMappingURL=ind.css.map */

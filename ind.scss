@@ -202,6 +202,7 @@ body{
             padding-left: 980px;
             font-size: 20px;
             color: rgb(255, 203, 155);
+            margin-bottom: 20px;
         }
         .con{
             border-left: 2px solid rgb(131, 48, 0);
@@ -209,6 +210,9 @@ body{
                 text-decoration: none;
                 li{
                     text-decoration: none;
+                    p{
+                        color: white;
+                    }
                 }
             }
         }
