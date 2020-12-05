@@ -59,6 +59,10 @@ body .sec1 nav ul li a {
   padding-right: 28px;
 }
 
+body .sec1 nav ul li a:hover {
+  color: black;
+}
+
 body .sec2 {
   background-image: url(cover.JPG);
   background-repeat: no-repeat;
@@ -118,6 +122,7 @@ body .sec2 .hed .p1 {
   background-color: #ff590b;
   height: 80px;
   margin-top: 80px;
+  border-radius: 9px;
 }
 
 body .sec2 .hed .p1 p {
@@ -154,9 +159,107 @@ body .sec3 .gallary {
 body .sec3 .gallary .img1 {
   background-image: url(donut.jpg);
   background-repeat: no-repeat;
+  height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px 10px 10px 66px;
+  width: 300px;
+  border-top: 2px solid orangered;
+  border-bottom: 2px solid orangered;
+  opacity: 0.5;
+}
+
+body .sec3 .gallary .img1:hover {
+  opacity: 1;
+}
+
+body .sec3 .gallary .img1 p {
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+body .sec3 .gallary .img1 p a {
+  color: black;
+}
+
+body .sec3 .gallary .img2 {
+  background-image: url(paste.webp);
+  background-repeat: no-repeat;
+  height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px 10px 10px 66px;
+  width: 300px;
+  border-top: 2px solid orangered;
+  border-bottom: 2px solid orangered;
+  opacity: 0.5;
+}
+
+body .sec3 .gallary .img2:hover {
+  opacity: 1;
+}
+
+body .sec3 .gallary .img2 p {
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+body .sec3 .gallary .img2 p a {
+  color: black;
+}
+
+body .sec3 .gallary .img3 {
+  background-image: url(jar.jpg);
+  background-repeat: no-repeat;
+  height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px 10px 10px 66px;
+  width: 300px;
+  border-top: 2px solid orangered;
+  border-bottom: 2px solid orangered;
+  opacity: 0.5;
+}
+
+body .sec3 .gallary .img3:hover {
+  opacity: 1;
+}
+
+body .sec3 .gallary .img3 p {
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+body .sec3 .gallary .img3 p a {
+  color: black;
 }
 
 body .sec4 {
   background-color: #833000;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 80% 20%;
+      grid-template-columns: 80% 20%;
+}
+
+body .sec4 .free {
+  padding-left: 980px;
+  font-size: 20px;
+  color: #ffcb9b;
+}
+
+body .sec4 .con {
+  border-left: 2px solid #833000;
+}
+
+body .sec4 .con ul {
+  text-decoration: none;
+}
+
+body .sec4 .con ul li {
+  text-decoration: none;
 }
 /*# sourceMappingURL=ind.css.map */

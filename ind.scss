@@ -45,6 +45,9 @@ body{
                         text-decoration: none;
                         padding-left: 34px;
                         padding-right: 28px;
+                        &:hover{
+                            color: black;
+                        }
                     }
                 }
             }
@@ -96,6 +99,7 @@ body{
                 // margin-bottom: 30px;
                 height: 80px;
                 margin-top: 80px;
+                border-radius: 9px;
                 p{
                     text-align: center;
                     padding-right: 130px;
@@ -128,11 +132,85 @@ body{
             .img1{
                 background-image: url(donut.jpg);
                 background-repeat: no-repeat;
-
+                height: 200px;
+                align-items: center;
+                margin: 40px 10px 10px 66px;
+                width: 300px;
+                border-top: 2px solid orangered;
+                border-bottom: 2px solid orangered;
+                opacity: 0.5;
+                &:hover{
+                    opacity: 1;
+                }
+                p{
+                    padding-left: 10px;
+                    text-decoration: underline;
+                    a{
+                        color: black;
+                    }
+                }
+            }
+            .img2{
+                background-image: url(paste.webp);
+                background-repeat: no-repeat;
+                height: 200px;
+                align-items: center;
+                margin: 40px 10px 10px 66px;
+                width: 300px;
+                border-top: 2px solid orangered;
+                border-bottom: 2px solid orangered;
+                opacity: 0.5;
+                &:hover{
+                    opacity: 1;
+                }
+                p{
+                    padding-left: 10px;
+                    text-decoration: underline;
+                    a{
+                        color: black;
+                    }
+                }
+            }
+            .img3{
+                background-image: url(jar.jpg);
+                background-repeat: no-repeat;
+                height: 200px;
+                align-items: center;
+                margin: 40px 10px 10px 66px;
+                width: 300px;
+                border-top: 2px solid orangered;
+                border-bottom: 2px solid orangered;
+                opacity: 0.5;
+                &:hover{
+                    opacity: 1;
+                }
+                p{
+                    padding-left: 10px;
+                    text-decoration: underline;
+                    a{
+                        color: black;
+                    }
+                }
             }
         }
     }
     .sec4{
         background-color: rgb(131, 48, 0);
+        display: grid;
+        grid-template-columns: 80% 20%;
+        .free{
+            padding-left: 980px;
+            font-size: 20px;
+            color: rgb(255, 203, 155);
+        }
+        .con{
+            border-left: 2px solid rgb(131, 48, 0);
+            ul{
+                text-decoration: none;
+                li{
+                    text-decoration: none;
+                }
+            }
+        }
     }
 }
