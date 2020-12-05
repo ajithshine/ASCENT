@@ -96,6 +96,10 @@ body .sec2 .des .one p {
   padding-bottom: 0px;
 }
 
+body .sec2 .des .one p:hover {
+  color: #833000;
+}
+
 body .sec2 .des .ann {
   margin-top: 10px;
   margin-bottom: 0px;
@@ -243,28 +247,26 @@ body .sec4 {
   display: grid;
   -ms-grid-columns: 80% 20%;
       grid-template-columns: 80% 20%;
+  height: 130px;
 }
 
 body .sec4 .free {
   padding-left: 980px;
   font-size: 20px;
   color: #ffcb9b;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 body .sec4 .con {
-  border-left: 2px solid #833000;
+  border-left: 2px solid black;
 }
 
 body .sec4 .con ul {
   text-decoration: none;
 }
 
-body .sec4 .con ul li {
-  text-decoration: none;
-}
-
 body .sec4 .con ul li p {
+  text-decoration: none;
   color: white;
 }
 /*# sourceMappingURL=ind.css.map */
