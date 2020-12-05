@@ -1,0 +1,162 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  height: 800px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 10% 50% 35% 5%;
+      grid-template-rows: 10% 50% 35% 5%;
+}
+
+body .sec1 {
+  width: 100%;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 40% 30%;
+      grid-template-columns: 30% 40% 30%;
+}
+
+body .sec1 p {
+  font-family: cursive;
+  font-size: 35px;
+  padding-left: 100px;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  margin-top: 0px;
+  color: #833000;
+}
+
+body .sec1 div {
+  margin-left: 400px;
+}
+
+body .sec1 div p {
+  background-color: #833000;
+  padding-left: 30px;
+  padding-top: 30px;
+  color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+body .sec1 nav ul {
+  display: inline-block;
+  padding-left: 8px;
+  padding-top: 10px;
+}
+
+body .sec1 nav ul li {
+  display: inline;
+}
+
+body .sec1 nav ul li a {
+  color: #833000;
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 34px;
+  padding-right: 28px;
+}
+
+body .sec2 {
+  background-image: url(cover.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+}
+
+body .sec2 .des {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 70% 30%;
+      grid-template-rows: 70% 30%;
+}
+
+body .sec2 .des .one {
+  margin: 0px;
+  margin-left: 150px;
+  padding-bottom: 0px;
+}
+
+body .sec2 .des .one p {
+  color: white;
+  font-size: 200px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+body .sec2 .des .ann {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-left: 80px;
+}
+
+body .sec2 .des .ann p {
+  color: wheat;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body .sec2 .hed {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 40% 60%;
+      grid-template-rows: 40% 60%;
+  margin-right: 250px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+body .sec2 .hed .p1 {
+  background-color: #ff590b;
+  height: 80px;
+  margin-top: 80px;
+}
+
+body .sec2 .hed .p1 p {
+  text-align: center;
+  padding-right: 130px;
+  font-size: 30px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body .sec2 .hed .p2 {
+  background-color: #88715e;
+  height: 70px;
+  margin-right: 50px;
+  margin-top: 45px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+}
+
+body .sec2 .hed .p2 p {
+  text-align: justify;
+  padding-left: 20px;
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body .sec3 .gallary {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+}
+
+body .sec3 .gallary .img1 {
+  background-image: url(donut.jpg);
+  background-repeat: no-repeat;
+}
+
+body .sec4 {
+  background-color: #833000;
+}
+/*# sourceMappingURL=ind.css.map */
